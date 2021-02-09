@@ -9,6 +9,7 @@ Bienvenue dans le projet pour l'atelier de documentation logicielle
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
    guides
    faq
    référentiel
