@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Bienvenue dans le projet pour  l'atelier de documentation logicielle
-==================================================
+====================================================================
 
 .. toctree::
    :maxdepth: 2
