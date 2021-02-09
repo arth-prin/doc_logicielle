@@ -3,13 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Atelier Doc Logicielle's documentation!
+Bienvenue dans le projet pour  l'atelier de documentation logicielle
 ==================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
 
 
 Indices and tables
