@@ -28,6 +28,7 @@ jobs:
           pip3 install sphinx sphinx-rtd-theme recommonmark
       - name: "Build Sphinx Doc"
         run: |
+          cp README.rst ./docs/source/README.rst
           cd docs && make html
       # 3. Déploiement sur les Github Pages
       - name: "Deploy Github Pages"
