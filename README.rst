@@ -44,8 +44,8 @@ Entrez les programmes/logiciels/ressources que vous avez utilisé pour
 développer votre projet
 
 *exemples :*
-- `Materialize.css <http://materializecss.com>`__ - Framework CSS (front-end)
-- `Atom <https://atom.io/>`__ - Editeur de textes
+* `Materialize.css <http://materializecss.com>`__ - Framework CSS (front-end)
+* `Atom <https://atom.io/>`__ - Editeur de textes
 
 Contributing
 ------------
@@ -65,7 +65,7 @@ Auteurs
 -------
 
 Listez le(s) auteur(s) du projet ici !
-- **Jhon doe** *alias* [@outout14](https://github.com/outout14)
+* **Jhon doe** *alias* [@outout14](https://github.com/outout14)
 
 Lisez la liste des
 `contributeurs <https://github.com/your/project/contributors>`__ pour
