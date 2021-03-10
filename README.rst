@@ -44,8 +44,9 @@ Entrez les programmes/logiciels/ressources que vous avez utilisé pour
 développer votre projet
 
 *exemples :*
-* `Materialize.css <http://materializecss.com>`__ - Framework CSS (front-end)
-* `Atom <https://atom.io/>`__ - Editeur de textes
+
+- `Materialize.css <http://materializecss.com>`__ - Framework CSS (front-end)
+- `Atom <https://atom.io/>`__ - Editeur de textes
 
 Contributing
 ------------
