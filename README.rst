@@ -60,21 +60,21 @@ Versions
 Listez les versions ici *exemple :* **Dernière version stable :** 5.0
 **Dernière version :** 5.1 Liste des versions : `Cliquer pour
 afficher <https://github.com/your/project-name/tags>`__ *(pour le lien
-mettez simplement l'URL de votre projets suivi de r``/tags``)*
+mettez simplement l'URL de votre projets suivi de ``/tags``)*
 
 Auteurs
 -------
 
 Listez le(s) auteur(s) du projet ici !
 
-- **Jhon doe** *alias* [@outout14](https://github.com/outout14)
+- **Jhon doe** *alias* `@outout14 <https://github.com/outout14>`_
 
 Lisez la liste des
 `contributeurs <https://github.com/your/project/contributors>`__ pour
 voir qui à aidé au projet !
 
 *(pour le lien mettez simplement l'URL de votre projet suivi de
-r``/contirubors``)*
+``/contirubors``)*
 
 License
 -------
