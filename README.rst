@@ -28,8 +28,7 @@ Les étapes pour installer votre programme....
 
 Dites ce qu'il faut faire...
 
-*exemple*: Executez la commande ``telnet mapscii.me`` pour commencer
-ensuite [...]
+*exemple*: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
 
 Ensuite vous pouvez montrer ce que vous obtenez au final...
 
@@ -44,9 +43,9 @@ Fabriqué avec
 Entrez les programmes/logiciels/ressources que vous avez utilisé pour
 développer votre projet
 
-*exemples :* \* `Materialize.css <http://materializecss.com>`__ -
-Framework CSS (front-end) \* `Atom <https://atom.io/>`__ - Editeur de
-textes
+*exemples :*
+- `Materialize.css <http://materializecss.com>`__ - Framework CSS (front-end)
+- `Atom <https://atom.io/>`__ - Editeur de textes
 
 Contributing
 ------------
@@ -65,8 +64,8 @@ mettez simplement l'URL de votre projets suivi de ``/tags``)*
 Auteurs
 -------
 
-Listez le(s) auteur(s) du projet ici ! \* **Jhon doe** *alias*
-[@outout14](https://github.com/outout14)
+Listez le(s) auteur(s) du projet ici !
+- **Jhon doe** *alias* [@outout14](https://github.com/outout14)
 
 Lisez la liste des
 `contributeurs <https://github.com/your/project/contributors>`__ pour
