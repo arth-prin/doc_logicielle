@@ -26,4 +26,4 @@ Indices and tables
 Readme File
 -----------
 
-.. include:: README.rst
+.. include:: ../../README.rst
