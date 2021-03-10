@@ -23,7 +23,7 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-Readme File
------------
+Readme File (README.rst)
+-------------------------
 
 .. include:: ../../README.rst
