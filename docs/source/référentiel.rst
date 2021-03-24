@@ -1,5 +1,5 @@
-Référentiel de l'atelier de documentation logicielle
-======================================================
+Référentiel
+=============
 
 .. automodule:: Bataille_Navale
     :members:
