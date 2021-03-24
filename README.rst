@@ -43,15 +43,21 @@ Versions
 --------
 
 * 1.0
+
   * Finalisation de la première partie de la Bataille Navale (Mode de jeu simple : l'utilisateur est le seul à tirer sur les bateaux de l'ordinateur qu'il placera de manière aléatoire).
 
 * 2.0
+
   * Finalisation de la deuxième partie de la Bataille Navale (2ème mode de jeu : l'utilisateur place ses bateaux, ainsi que l'ordinateur, et l'utilisateur ainsi que l'ordinateur tirent à tour de rôle. L'ordinateur tire de manière random uniquement, sans aucune logique).
 
 * 3.0 (Version finale actuelle)
+  
   * Améliorations/Optimisations du code
+
   * Utilisation au max des fonctions déjà écrites (suppression des copies prochain_coup_ia / resultat_tir_ia / tir_ia)
+  
   * Affichage plus jolie et ajout d'un menu
+  
   * Ajout de la doc des fonctions
 
 Listez les versions ici *exemple :* **Dernière version stable :** 5.0
