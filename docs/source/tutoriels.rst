@@ -3,7 +3,7 @@ Tutoriels
 
 Démarrage
 ----------
-    
+
 Executez la commande ``python src/Bataille_Navale.py`` pour commencer une partie.
 
 Il faut ensuite choisir un mode de jeu  entre 1 et 2 :
@@ -11,11 +11,13 @@ Il faut ensuite choisir un mode de jeu  entre 1 et 2 :
  - Jouer contre l'ordinateur : Vous placez vos bateaux, l'ordinateur aussi, et vous jouez à tour de rôle.
 
 Déroulement de la partie
---------------------------
+-------------------------
 
-La grille se présente de la manière suivante ::
+La grille se présente de la manière suivante :
 
-  1 2 3 4 5 6 7 8 9 10
+.. code-block:: bash
+
+    1 2 3 4 5 6 7 8 9 10
   A . . . . . . . . . .
   B . . . . . . . . . .
   C . . . . . . . . . .
