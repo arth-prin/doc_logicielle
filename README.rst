@@ -37,7 +37,7 @@ Contributing
 ------------
 
 Si vous souhaitez contribuer, lisez le fichier
-`CONTRIBUTING.md <https://example.org>`__ pour savoir comment le faire.
+`CONTRIBUTING.md <https://github.com/arthprin/doc_logicielle/blob/master/CONTRIBUTING.md>`__ pour savoir comment le faire.
 
 Versions
 --------
@@ -60,10 +60,11 @@ Versions
   
   * Ajout de la doc des fonctions
 
-Listez les versions ici *exemple :* **Dernière version stable :** 5.0
-**Dernière version :** 5.1 Liste des versions : `Cliquer pour
-afficher <https://github.com/your/project-name/tags>`__ *(pour le lien
-mettez simplement l'URL de votre projets suivi de ``/tags``)*
+Amélioration
+-------------
+
+Le fait que l'ordinateur tire était une partie "Bonus" du projet. Actuellement, l'ordinateur tire de manière random, sans aucune logique : si il touche un bateau, il ne suivra aucune logique pour son prochain tir.
+Il faudrait donc corriger ceci, et modifier le code pour que l'ordinateur tire son prochain tire de manière logique.
 
 Auteurs
 -------
@@ -72,10 +73,3 @@ Ce projet a été fait par :
 
 - **Arthur Prince** *alias* `@arthprin <https://github.com/arthprin>`_
 - **Alexandre Becue**
-
-Lisez la liste des
-`contributeurs <https://github.com/your/project/contributors>`__ pour
-voir qui à aidé au projet !
-
-*(pour le lien mettez simplement l'URL de votre projet suivi de
-``/contirubors``)*
