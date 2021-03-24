@@ -16,6 +16,7 @@ def helloworld() -> str:
 def addition(a: int, b: int) -> int:
     """
     Fonction qui permet d'ajouter 2 nombres et de retourner le résultat.
+    :func:`~helloworld.helloworld` 
 
     :param a: Le premier nombre
     :type a: int
