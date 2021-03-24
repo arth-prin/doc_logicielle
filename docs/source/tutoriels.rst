@@ -7,8 +7,9 @@ Démarrage
 Executez la commande ``python src/Bataille_Navale.py`` pour commencer une partie.
 
 Il faut ensuite choisir un mode de jeu  entre 1 et 2 :
- - Jouer seul : l'ordinateur a placé ses bateaux, et vous devez les trouver seul.
- - Jouer contre l'ordinateur : Vous placez vos bateaux, l'ordinateur aussi, et vous jouez à tour de rôle.
+
+*  Jouer seul : l'ordinateur a placé ses bateaux, et vous devez les trouver seul.
+*  Jouer contre l'ordinateur : Vous placez vos bateaux, l'ordinateur aussi, et vous jouez à tour de rôle.
 
 Déroulement de la partie
 -------------------------
