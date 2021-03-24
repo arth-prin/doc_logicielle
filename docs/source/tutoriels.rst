@@ -16,42 +16,42 @@ Déroulement de la partie
 
 La grille se présente de la manière suivante :
 
-.. code-block:: bash
+.. code-block:: text
 
-      1 2 3 4 5 6 7 8 9 10
-    A . . . . . . . . . .
-    B . . . . . . . . . .
-    C . . . . . . . . . .
-    D . . . . . . . . . .
-    E . . . . . . . . . .
-    F . . . . . . . . . .
-    G . . . . . . . . . .
-    H . . . . . . . . . .
-    I . . . . . . . . . .
-    J . . . . . . . . . .
+    1 2 3 4 5 6 7 8 9 10
+  A . . . . . . . . . .
+  B . . . . . . . . . .
+  C . . . . . . . . . .
+  D . . . . . . . . . .
+  E . . . . . . . . . .
+  F . . . . . . . . . .
+  G . . . . . . . . . .
+  H . . . . . . . . . .
+  I . . . . . . . . . .
+  J . . . . . . . . . .
 
 Il faut ensuite saisir une Lettre puis un chiffre pour indiquer la position du tir.
 
 Exemple :
 
-.. code-block:: bash
+.. code-block:: text
 
-    Saisissez la position du prochain tir :
-    Lettre :B
-    Colonne :5
-    Dans l'eau !
+  Saisissez la position du prochain tir :
+  Lettre :B
+  Colonne :5
+  Dans l'eau !
 
-      1 2 3 4 5 6 7 8 9 10
-    A . . . . . . . . . .
-    B . . . . * . . . . .
-    C . . . . . . . . . .
-    D . . . . . . . . . .
-    E . . . . . . . . . .
-    F . . . . . . . . . .
-    G . . . . . . . . . .
-    H . . . . . . . . . .
-    I . . . . . . . . . .
-    J . . . . . . . . . .
+    1 2 3 4 5 6 7 8 9 10
+  A . . . . . . . . . .
+  B . . . . * . . . . .
+  C . . . . . . . . . .
+  D . . . . . . . . . .
+  E . . . . . . . . . .
+  F . . . . . . . . . .
+  G . . . . . . . . . .
+  H . . . . . . . . . .
+  I . . . . . . . . . .
+  J . . . . . . . . . .
 
 
 Le score est indiqué de la manière suivante :
