@@ -66,6 +66,7 @@ Amélioration
 -------------
 
 Le fait que l'ordinateur tire était une partie "Bonus" du projet. Actuellement, l'ordinateur tire de manière random, sans aucune logique : si il touche un bateau, il ne suivra aucune logique pour son prochain tir.
+
 Il faudrait donc corriger ceci, et modifier le code pour que l'ordinateur tire son prochain tire de manière logique.
 
 Auteurs
