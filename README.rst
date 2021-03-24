@@ -2,6 +2,7 @@ Bataille Navale
 ===============
 
 Le célèbre jeu de la Bataille Navale.
+
 La documentation est disponible avec `github-pages <https://arthprin.github.io/doc_logicielle>`__.
 
 Description
