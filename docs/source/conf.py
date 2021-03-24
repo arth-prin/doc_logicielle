@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../../src'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Atelier Doc Logicielle'
+project = 'Bataille Navale'
 copyright = '2021, Thomas Chmara, Thomas Finet, Bilel Khinache et Arthur Prince'
 author = 'Thomas Chmara, Thomas Finet, Bilel Khinache et Arthur Prince'
 
