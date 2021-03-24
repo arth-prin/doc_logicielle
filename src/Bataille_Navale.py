@@ -267,7 +267,7 @@ def placer_bateau_utilisateur(bateaux:list)->list:
 			pos_depart_x=str(input("\nEntrer ici la lettre souhaitée :"))
 			pos_depart_x=pos_depart_x.upper()
 			while pos_depart_x not in LETTRES:
-				print("/!\ Erreur de lettre, resaisie ta lettre ! /!\ ")
+				print(r"/!\ Erreur de lettre, resaisie ta lettre ! /!\ ")
 				pos_depart_x=str(input("Entrer ici la lettre souhaitée :"))
 				pos_depart_x=pos_depart_x.upper()
 			pos_depart_x=int(LIGNES[pos_depart_x])
@@ -276,19 +276,19 @@ def placer_bateau_utilisateur(bateaux:list)->list:
 			while cond!=1:	
 				pos_depart_y = input("Entrer ici la colonne souhaitée :")
 				while not pos_depart_y.isdigit():
-					print("/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
+					print(r"/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
 					pos_depart_y = input("Entrer ici la colonne souhaitée :")
 				pos_depart_y=int(pos_depart_y)
 				if pos_depart_y in range(1,11):
 					pos_depart_y=pos_depart_y-1
 					cond=1
 				else:
-					print("/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
+					print(r"/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
 
 			sens=str(input("Entrer ici le sens souhaité (Horizontal ou Vertical) [H/V] :"))
 			sens=sens.upper()
 			while sens not in SENS:
-				print("/!\ Erreur de sens, resaisie te sens ! /!\ ")
+				print(r"/!\ Erreur de sens, resaisie te sens ! /!\ ")
 				sens=str(input("Entrer ici le sens souhaité (Horizontal ou Vertical) [H/V] :"))
 				sens=sens.upper()
 			if sens=='H':
@@ -340,7 +340,7 @@ def prochain_coup(tirs:list, joueur:str)->tuple:
 		ligne=str(input("Lettre :"))
 		ligne=ligne.upper() #Répare l'erreur si l'utilisateur rentre un a au lieu de A
 		while ligne not in LETTRES:
-			print("/!\ Erreur de lettre, resaisie ta lettre ! /!\ ")
+			print(r"/!\ Erreur de lettre, resaisie ta lettre ! /!\ ")
 			ligne=str(input("Lettre :"))
 			ligne=ligne.upper()
 		ligne=int(LIGNES[ligne])
@@ -349,14 +349,14 @@ def prochain_coup(tirs:list, joueur:str)->tuple:
 		while cond!=1:	
 			colonne = input("Colonne :")
 			while not colonne.isdigit():
-				print("/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
+				print(r"/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
 				colonne=input("Colonne :")
 			colonne=int(colonne)
 			if colonne in range(1,11):
 				colonne=colonne-1 #car colonne 5 en vrai = colonne 4 en python
 				cond=1
 			else:
-				print("/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
+				print(r"/!\ Erreur de colonne, resaisie ta colonne ! /!\ ")
 
 	elif joueur=='ia':
 		ligne=random.randint(0,9)
@@ -366,7 +366,7 @@ def prochain_coup(tirs:list, joueur:str)->tuple:
 		return (ligne, colonne)
 	else:
 		if joueur=='utilisateur':
-			print("/!\ Erreur tir, déjà fait ou incorrect, recommence le tir ! /!\ ")
+			print(r"/!\ Erreur tir, déjà fait ou incorrect, recommence le tir ! /!\ ")
 		return prochain_coup(tirs, joueur)
 
 
@@ -762,13 +762,13 @@ def menu():
 	while cond!=1:	
 		mode_jeu = input("Ton mode de jeu est [1/2] : ")
 		while not mode_jeu.isdigit():
-			print("/!\ Erreur de saisie, recommence ! /!\ ")
+			print(r"/!\ Erreur de saisie, recommence ! /!\ ")
 			mode_jeu=input("Ton mode de jeu est [1/2] : ")
 		mode_jeu=int(mode_jeu)
 		if mode_jeu in range(1,3):
 			cond=1
 		else:
-			print("/!\ Erreur de saisie, recommence ! /!\ ")
+			print(r"/!\ Erreur de saisie, recommence ! /!\ ")
 
 	if mode_jeu==1:
 		jouer()
