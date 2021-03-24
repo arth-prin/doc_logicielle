@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bienvenue dans le projet pour l'atelier de documentation logicielle !
-=====================================================================
+Bienvenue dans le projet de Bataille Navale
+============================================
 
 .. toctree::
    :maxdepth: 2
