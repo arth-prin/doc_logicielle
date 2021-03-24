@@ -777,4 +777,5 @@ def menu():
 
 doctest.testmod()
 
-# menu()
+if __name__ == "__main__":
+    menu()
