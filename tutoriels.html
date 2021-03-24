@@ -34,6 +34,41 @@
             
   <div class="section" id="tutoriels">
 <h1>Tutoriels<a class="headerlink" href="#tutoriels" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="demarrage">
+<h2>Démarrage<a class="headerlink" href="#demarrage" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Executez la commande <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">src/Bataille_Navale.py</span></code> pour commencer une partie.</p>
+<dl class="simple">
+<dt>Il faut ensuite choisir un mode de jeu  entre 1 et 2 :</dt><dd><ul class="simple">
+<li><p>Jouer seul : l’ordinateur a placé ses bateaux, et vous devez les trouver seul.</p></li>
+<li><p>Jouer contre l’ordinateur : Vous placez vos bateaux, l’ordinateur aussi, et vous jouez à tour de rôle.</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="deroulement-de-la-partie">
+<h2>Déroulement de la partie<a class="headerlink" href="#deroulement-de-la-partie" title="Lien permanent vers ce titre">¶</a></h2>
+<p>La grille se présente de la manière suivante</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span> <span class="mi">2</span> <span class="mi">3</span> <span class="mi">4</span> <span class="mi">5</span> <span class="mi">6</span> <span class="mi">7</span> <span class="mi">8</span> <span class="mi">9</span> <span class="mi">10</span>
+<span class="n">A</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">B</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">C</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">D</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">E</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">F</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">G</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">H</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">I</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="n">J</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+</pre></div>
+</div>
+<p>Il faut ensuite saisir une Lettre puis un chiffre pour indiquer la position du tir.</p>
+<p>Le score est indiqué de la manière suivante :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">*</span></code> = Dans l’eau</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">+</span></code> = Touché</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">X</span></code> = Coulé</p></li>
+</ul>
+</div>
 </div>
 
 
@@ -58,7 +93,11 @@
 <li class="toctree-l1"><a class="reference internal" href="guides.html">Guides</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="r%C3%A9f%C3%A9rentiel.html">Référentiel</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutoriels</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutoriels</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#demarrage">Démarrage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deroulement-de-la-partie">Déroulement de la partie</a></li>
+</ul>
+</li>
 </ul>
 
 <div class="relations">
