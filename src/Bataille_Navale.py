@@ -663,7 +663,7 @@ def jouer():
 	Fonction qui permet de jouer contre l'ordinateur.
 	L'utilisateur tire, mais pas l'ordinateur.
 	"""
-	os.system("clear")
+	os.system('cls' if os.name == 'nt' else 'clear')
 	bateaux=initialiser_grille(0)
 	bateaux=placer_bateaux_aleatoirement(bateaux)
 
@@ -689,7 +689,7 @@ def jouer_ia():
 	Fonction qui permet de jouer contre l'ordinateur.
 	L'utilisateur et l'ordinateur ont une grille de bateaux, et tirent à tour de rôle.
 	"""
-	os.system("clear")
+	os.system('cls' if os.name == 'nt' else 'clear')
 	bateaux_utilisateur=initialiser_grille(0)
 	tirs_utilisateur=initialiser_grille(-1)
 
@@ -701,7 +701,7 @@ def jouer_ia():
 
 	print("Pour placer tes bateaux, saisie la case de départ,\nensuite son sens, il se placera automatiquement :\n - Vers la droite à partir de la case de départ si tu choisis horizontalement\n - Vers le bas à partir de la case de départ si tu choisis verticalement.\n")
 	input("Appuie sur <Entrée> pour commencer à placer tes bateaux...")
-	os.system("clear")
+	os.system('cls' if os.name == 'nt' else 'clear')
 
 	placer_bateau_utilisateur(bateaux_utilisateur)
 	print()
@@ -710,7 +710,7 @@ def jouer_ia():
 
 	input("Ta grille est prête, appuie sur <Entrée> pour commencer à jouer...")
 	while not partie_finie(tirs_utilisateur) and not partie_finie(tirs_ia):
-		os.system('clear')
+		os.system('cls' if os.name == 'nt' else 'clear')
 		print("Ton placement (O) et les tirs de l'ordinateur :\n - (+) pour un tir manqué\n - (X) pour un bon tir\n")
 		afficher_grille_bateau(copie_bateaux_utilisateur)
 		print("\nTa grille de tirs :\n")
@@ -746,7 +746,7 @@ def menu():
 	- 1 pour jouer seul
 	- 2 pour jouer contre l'ordinateur
 	"""
-	os.system("clear")
+	os.system('cls' if os.name == 'nt' else 'clear')
 	print("#######################################################################")
 	print("############# Bienvenue dans le jeu de la Bataille Navale #############")
 	print("#######################################################################\n")
